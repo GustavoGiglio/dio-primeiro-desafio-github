@@ -1,0 +1,18 @@
+git init (cria um repositório no git, dentro daquele diretório)
+git status (monitora a situação do arquivo)
+
+[ctrl]+[l] -> limpa tela
+
+git config list (mostra as configurações do git incluindo o nome e email)
+git config --global user.email "emailGitHub" (adiciona email ao git)
+git config --global user.name "nameGitHub" (adicona o usuario)
+git config --global --unset user.email (remove email)
+git config --global --unset user.name (remove usuario)
+
+
+git remote add origin https://github.com/GustavoGiglio/livro-receitas.git (adiciona)
+git remote -v (mostra todas as listas de repositórios e seu apontamento no github)
+git push origin master (envia o nosso repositorio local para o repositorio remoto)
+git pull origin master (baixa o nosso repositorio remoto para o repositorio local para tentar arrumar conflito)
+
+git clone https://github.com/GustavoGiglio/dio-primeiro-desafio-github.git (faz clone de um repositório do remoto do github para o repositorio local)
